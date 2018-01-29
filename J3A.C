@@ -1,16 +1,16 @@
 #include <stdio.h>
 int main()
 {
-    char c;
+    char e;
     int a,b;
 
     printf("Enter an alphabet: ");
     scanf("%c",&c);
-    a = (c == 'a' || c == 'e' || c == 'i' || c == 'o' || c == 'u');
-    b = (c == 'A' || c == 'E' || c == 'I' || c == 'O' || c == 'U');
+    a = (e == 'a' || e == 'e' || e == 'i' || e == 'o' || e == 'u');
+    b = (e == 'A' || e == 'E' || e == 'I' || e == 'O' || e == 'U');
     if (a || b)
-        printf("%c is a vowel.", c);
+        printf("%c is a vowel.", e);
     else
-        printf("%c is a consonant.", c);
+        printf("%c is a consonant.", e);
     return 0;
 }
