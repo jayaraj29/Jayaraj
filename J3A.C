@@ -5,7 +5,7 @@ int main()
     int a,b;
 
     printf("Enter an alphabet: ");
-    scanf("%c",&c);
+    scanf("%c",&e);
     a = (e == 'a' || e == 'e' || e == 'i' || e == 'o' || e == 'u');
     b = (e == 'A' || e == 'E' || e == 'I' || e == 'O' || e == 'U');
     if (a || b)
