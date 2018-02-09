@@ -1,25 +1,25 @@
 #include<stdio.h>
 int main()
 {
-int a[10],i,j,t,n;
-scanf("%d",&n);
-for(i=0;i<n;i++)
+int a[50],b,c,i,j;
+scanf("%d",&c);
+for(i=0;i<c;i++)
 {
 scanf("%d",&a[i]);
 }
-for(i=0;i<n;i++)
+for(i=0;i<c;i++)
 {
-for(j=0;j<(n-2);j++)
+for(j=0;j<(c-2);j++)
 {
 if(a[j]>a[j+1])
 {
-t=a[j];
+b=a[j];
 a[j]=a[j+1];
-a[j+1]=t;
+a[j+1]=b;
 }
 }
 }
-for(i=0;i<n;i++)
+for(i=0;i<c;i++)
 {
 printf("%d",a[i]);
 }
