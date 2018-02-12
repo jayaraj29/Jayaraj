@@ -1,7 +1,7 @@
 #include <stdio.h>
 int main() 
 {
-    int a,b[10],c=0,i,j;
+    int a,b[10],c=0,d,e,i,j;
     scanf("%d",&a);
     for(i=0;i<a;i++)
     {
@@ -22,11 +22,13 @@ int main()
    
      if(a%2==0)
      {
-         printf("%d\n",(b[a/2]+b[(a/2)-1])/2);
+	 d=(b[a/2]+b[(a/2)-1])/2;
+         printf("%d\n",d);
      }
      else
      {
-         printf("%d\n",b[(a-1)/2]);
+	 e=b[(a-1)/2];
+         printf("%d\n",e);
      }
 	return 0;
 }
