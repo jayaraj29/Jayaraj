@@ -13,6 +13,6 @@ int main()
 			a=a+1;
 		}
 	}
-	printf("\nno of words=%d",--a);
+	printf("\nno of space=%d",--a);
 	return 0;
 }
