@@ -6,7 +6,7 @@ int main()
     printf("\n Enter the number......");
     scanf("%d",&a);
     if(a%2==0)
-    b=a-2;
+    b=a;
     else
     b=a-1;
     printf("\n %d",b);
