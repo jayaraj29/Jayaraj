@@ -1,8 +1,8 @@
-#include<stdio.h>
-int main(void)
+##include<stdio.h>
+int main()
 {
-	int n,i,a,b,c;
-	printf("enter the number:");
+	int a,b,c,n,i;
+	printf("\n enter the number:");
 	scanf("%d",&n);
 	for(i=1;i<=n;i++)
 	{
