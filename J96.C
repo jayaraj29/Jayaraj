@@ -1,17 +1,17 @@
 #include<stdio.h>
 int main()
 {
-    int num,i,flag=0;
-    scanf("%d",&num);
-    for(i=2;i<=num/2;i++)
+    int a,b=0,i;
+    scanf("%d",&a);
+    for(i=2;i<=a/2;i++)
     {
-    if(num%i==0)
+    if(a%i==0)
     {
-        flag=1;
+        b=1;
         break;
     }
     }
-    if(flag==0)
+    if(b==0)
     printf("\n no");
     else
     printf("\n yes");
