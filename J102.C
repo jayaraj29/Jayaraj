@@ -2,17 +2,16 @@
 
 int main()
 {
-    int a,b,c,i;
+    int a,b,i;
     printf("\n Enter the num.......");
     scanf("%d",&a);
-    for(i=0;a!=0;i++)
+    while(a%2==0)
     {
-        c=a%2;
-        b=a/2;
-        printf("\n %d",b);
-        c=a;
-        break;
+        a=a/2;
+        
     }
+     printf("\n %d",a);
     
     return 0;
 }
+
