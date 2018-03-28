@@ -1,21 +1,20 @@
 #include <stdio.h>
-
 int main() 
 {
-	int a[25],b,i,c;
+	int b[25],a,i,c;
 	printf("\n Enter the number of elements.......");
-	scanf("%d",&b);
+	scanf("%d",&a);
 	printf("\n Enter the elements.........");
-	for(i=0;i<b;i++)
+	for(i=0;i<a;i++)
 	{
-		scanf("%d",&a[i]);
+		scanf("%d",&b[i]);
 	}
-	c=a[0];
-	for(i=0;i<b;i++)
+	c=b[0];
+	for(i=0;i<a;i++)
 	{
-		if(a[i]>c)
+		if(b[i]<c)
 		{
-			c=a[i];
+			c=b[i];
 		}
 	}
 	printf("\nThe maximum of the numbers is:%d",c);
